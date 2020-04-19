@@ -13,6 +13,10 @@ stdio.h
 -
 dimacs_lib/dimacs.h
 /home/adam/STUFF/GenSAT/dimacs_lib/dimacs.h
+memory_lib/memory.h
+/home/adam/STUFF/GenSAT/memory_lib/memory.h
 
 libraries/dimacs_lib/dimacs.h
+
+libraries/memory_lib/memory.h
 

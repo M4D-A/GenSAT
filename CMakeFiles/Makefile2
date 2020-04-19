@@ -94,6 +94,7 @@ clean: libraries/clean
 
 # Recursive "all" directory target.
 libraries/all: libraries/CMakeFiles/dimacs.dir/all
+libraries/all: libraries/CMakeFiles/memory.dir/all
 
 .PHONY : libraries/all
 
@@ -104,6 +105,7 @@ libraries/preinstall:
 
 # Recursive "clean" directory target.
 libraries/clean: libraries/CMakeFiles/dimacs.dir/clean
+libraries/clean: libraries/CMakeFiles/memory.dir/clean
 
 .PHONY : libraries/clean
 
@@ -112,6 +114,7 @@ libraries/clean: libraries/CMakeFiles/dimacs.dir/clean
 
 # All Build rule for target.
 CMakeFiles/gensat.dir/all: libraries/CMakeFiles/dimacs.dir/all
+CMakeFiles/gensat.dir/all: libraries/CMakeFiles/memory.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gensat.dir/build.make CMakeFiles/gensat.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gensat.dir/build.make CMakeFiles/gensat.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adam/STUFF/GenSAT/CMakeFiles --progress-num=3,4 "Built target gensat"
@@ -119,7 +122,7 @@ CMakeFiles/gensat.dir/all: libraries/CMakeFiles/dimacs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gensat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/STUFF/GenSAT/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/STUFF/GenSAT/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gensat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/STUFF/GenSAT/CMakeFiles 0
 .PHONY : CMakeFiles/gensat.dir/rule
@@ -160,6 +163,33 @@ dimacs: libraries/CMakeFiles/dimacs.dir/rule
 libraries/CMakeFiles/dimacs.dir/clean:
 	$(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/dimacs.dir/build.make libraries/CMakeFiles/dimacs.dir/clean
 .PHONY : libraries/CMakeFiles/dimacs.dir/clean
+
+#=============================================================================
+# Target rules for target libraries/CMakeFiles/memory.dir
+
+# All Build rule for target.
+libraries/CMakeFiles/memory.dir/all:
+	$(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/memory.dir/build.make libraries/CMakeFiles/memory.dir/depend
+	$(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/memory.dir/build.make libraries/CMakeFiles/memory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adam/STUFF/GenSAT/CMakeFiles --progress-num=5,6 "Built target memory"
+.PHONY : libraries/CMakeFiles/memory.dir/all
+
+# Build rule for subdir invocation for target.
+libraries/CMakeFiles/memory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/STUFF/GenSAT/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/CMakeFiles/memory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/STUFF/GenSAT/CMakeFiles 0
+.PHONY : libraries/CMakeFiles/memory.dir/rule
+
+# Convenience name for target.
+memory: libraries/CMakeFiles/memory.dir/rule
+
+.PHONY : memory
+
+# clean rule for target.
+libraries/CMakeFiles/memory.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/memory.dir/build.make libraries/CMakeFiles/memory.dir/clean
+.PHONY : libraries/CMakeFiles/memory.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

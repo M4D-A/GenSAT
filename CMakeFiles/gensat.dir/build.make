@@ -100,6 +100,7 @@ gensat_EXTERNAL_OBJECTS =
 gensat: CMakeFiles/gensat.dir/main.c.o
 gensat: CMakeFiles/gensat.dir/build.make
 gensat: libraries/libdimacs.a
+gensat: libraries/libmemory.a
 gensat: CMakeFiles/gensat.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/STUFF/GenSAT/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable gensat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gensat.dir/link.txt --verbose=$(VERBOSE)

@@ -3,4 +3,5 @@
 
 CMakeFiles/gensat.dir/main.c.o: main.c
 CMakeFiles/gensat.dir/main.c.o: libraries/dimacs_lib/dimacs.h
+CMakeFiles/gensat.dir/main.c.o: libraries/memory_lib/memory.h
 

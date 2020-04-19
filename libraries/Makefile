@@ -145,6 +145,21 @@ dimacs/fast:
 	cd /home/adam/STUFF/GenSAT && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/dimacs.dir/build.make libraries/CMakeFiles/dimacs.dir/build
 .PHONY : dimacs/fast
 
+# Convenience name for target.
+libraries/CMakeFiles/memory.dir/rule:
+	cd /home/adam/STUFF/GenSAT && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libraries/CMakeFiles/memory.dir/rule
+.PHONY : libraries/CMakeFiles/memory.dir/rule
+
+# Convenience name for target.
+memory: libraries/CMakeFiles/memory.dir/rule
+
+.PHONY : memory
+
+# fast build rule for target.
+memory/fast:
+	cd /home/adam/STUFF/GenSAT && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/memory.dir/build.make libraries/CMakeFiles/memory.dir/build
+.PHONY : memory/fast
+
 dimacs_lib/dimacs.o: dimacs_lib/dimacs.c.o
 
 .PHONY : dimacs_lib/dimacs.o
@@ -172,6 +187,33 @@ dimacs_lib/dimacs.c.s:
 	cd /home/adam/STUFF/GenSAT && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/dimacs.dir/build.make libraries/CMakeFiles/dimacs.dir/dimacs_lib/dimacs.c.s
 .PHONY : dimacs_lib/dimacs.c.s
 
+memory_lib/memory.o: memory_lib/memory.c.o
+
+.PHONY : memory_lib/memory.o
+
+# target to build an object file
+memory_lib/memory.c.o:
+	cd /home/adam/STUFF/GenSAT && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/memory.dir/build.make libraries/CMakeFiles/memory.dir/memory_lib/memory.c.o
+.PHONY : memory_lib/memory.c.o
+
+memory_lib/memory.i: memory_lib/memory.c.i
+
+.PHONY : memory_lib/memory.i
+
+# target to preprocess a source file
+memory_lib/memory.c.i:
+	cd /home/adam/STUFF/GenSAT && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/memory.dir/build.make libraries/CMakeFiles/memory.dir/memory_lib/memory.c.i
+.PHONY : memory_lib/memory.c.i
+
+memory_lib/memory.s: memory_lib/memory.c.s
+
+.PHONY : memory_lib/memory.s
+
+# target to generate assembly for a file
+memory_lib/memory.c.s:
+	cd /home/adam/STUFF/GenSAT && $(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/memory.dir/build.make libraries/CMakeFiles/memory.dir/memory_lib/memory.c.s
+.PHONY : memory_lib/memory.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -181,9 +223,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dimacs"
+	@echo "... memory"
 	@echo "... dimacs_lib/dimacs.o"
 	@echo "... dimacs_lib/dimacs.i"
 	@echo "... dimacs_lib/dimacs.s"
+	@echo "... memory_lib/memory.o"
+	@echo "... memory_lib/memory.i"
+	@echo "... memory_lib/memory.s"
 .PHONY : help
 
 

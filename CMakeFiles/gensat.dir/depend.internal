@@ -4,3 +4,4 @@
 CMakeFiles/gensat.dir/main.c.o
  /home/adam/STUFF/GenSAT/main.c
  libraries/dimacs_lib/dimacs.h
+ libraries/memory_lib/memory.h

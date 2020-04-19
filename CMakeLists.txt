@@ -6,3 +6,4 @@ add_executable(gensat main.c)
 
 
 target_link_libraries(gensat PRIVATE dimacs)
+target_link_libraries(gensat PRIVATE memory)

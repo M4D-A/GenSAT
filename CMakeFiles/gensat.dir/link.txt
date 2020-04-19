@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/gensat.dir/main.c.o  -o gensat  libraries/libdimacs.a 
+/usr/bin/cc    CMakeFiles/gensat.dir/main.c.o  -o gensat  libraries/libdimacs.a libraries/libmemory.a 

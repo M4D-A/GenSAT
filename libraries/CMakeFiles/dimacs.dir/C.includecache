@@ -9,6 +9,8 @@
 /home/adam/STUFF/GenSAT/libraries/dimacs_lib/dimacs.c
 dimacs.h
 /home/adam/STUFF/GenSAT/libraries/dimacs_lib/dimacs.h
+memory.h
+/home/adam/STUFF/GenSAT/libraries/dimacs_lib/memory.h
 stdlib.h
 -
 stdio.h

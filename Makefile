@@ -156,6 +156,19 @@ dimacs/fast:
 	$(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/dimacs.dir/build.make libraries/CMakeFiles/dimacs.dir/build
 .PHONY : dimacs/fast
 
+#=============================================================================
+# Target rules for targets named memory
+
+# Build rule for target.
+memory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memory
+.PHONY : memory
+
+# fast build rule for target.
+memory/fast:
+	$(MAKE) $(MAKESILENT) -f libraries/CMakeFiles/memory.dir/build.make libraries/CMakeFiles/memory.dir/build
+.PHONY : memory/fast
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -193,6 +206,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... dimacs"
 	@echo "... gensat"
+	@echo "... memory"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
