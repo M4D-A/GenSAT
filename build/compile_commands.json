@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/adam/STUFF/GenSAT/build",
+  "command": "/bin/gcc  -I/home/adam/STUFF/GenSAT/libraries  -g   -o CMakeFiles/gensat.dir/main.c.o   -c /home/adam/STUFF/GenSAT/main.c",
+  "file": "/home/adam/STUFF/GenSAT/main.c"
+},
+{
+  "directory": "/home/adam/STUFF/GenSAT/build/libraries",
+  "command": "/bin/gcc  -I/home/adam/STUFF/GenSAT/libraries  -g   -o CMakeFiles/dimacs.dir/dimacs_lib/dimacs.c.o   -c /home/adam/STUFF/GenSAT/libraries/dimacs_lib/dimacs.c",
+  "file": "/home/adam/STUFF/GenSAT/libraries/dimacs_lib/dimacs.c"
+}
+]

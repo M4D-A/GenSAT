@@ -1,0 +1,2 @@
+/bin/ar qc libdimacs.a  CMakeFiles/dimacs.dir/dimacs_lib/dimacs.c.o
+/bin/ranlib libdimacs.a

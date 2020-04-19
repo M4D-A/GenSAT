@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adam/STUFF/GenSAT/main.c
+stdlib.h
+-
+stdio.h
+-
+dimacs_lib/dimacs.h
+/home/adam/STUFF/GenSAT/dimacs_lib/dimacs.h
+
+libraries/dimacs_lib/dimacs.h
+

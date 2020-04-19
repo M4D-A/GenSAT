@@ -1,0 +1,6 @@
+/home/adam/STUFF/GenSAT/build/CMakeFiles/rebuild_cache.dir
+/home/adam/STUFF/GenSAT/build/CMakeFiles/gensat.dir
+/home/adam/STUFF/GenSAT/build/CMakeFiles/edit_cache.dir
+/home/adam/STUFF/GenSAT/build/libraries/CMakeFiles/rebuild_cache.dir
+/home/adam/STUFF/GenSAT/build/libraries/CMakeFiles/dimacs.dir
+/home/adam/STUFF/GenSAT/build/libraries/CMakeFiles/edit_cache.dir
