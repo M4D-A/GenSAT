@@ -57,3 +57,6 @@ gensat
 
 # Editor setup
 .vscode
+
+# Test input
+sat

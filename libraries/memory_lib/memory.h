@@ -1,8 +1,8 @@
 #ifndef MEMORY_INCLUDED
 #define MEMORY_INCLUDED
 
-int* allock_array_int(int size);
-int  array_length_int(int* array);
-void free_array_int(int* array);
+int* array_int_allock(int size);
+int  array_int_length(int* array);
+void array_int_free(int* array);
 
 #endif
